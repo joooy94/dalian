@@ -1,0 +1,3 @@
+Holt-Winters Model
+Seasonal periods: 144
+Trained on: 576 samples
