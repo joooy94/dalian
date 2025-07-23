@@ -23,9 +23,9 @@ def fetch_data(start_time, end_time, interval=60000, names=None):
     """
     if names is None:
         names = [
-            'DLDZ_AVS_LLJ01_FI01.PV',
-            'DLDZ_DQ200_LLJ01_FI01.PV',
-            'DLDZ_SUM_SYSTEM_PI01.PV'
+            'DLDZ_AVS_LLJ01_FI01.PV', #流量1
+            'DLDZ_DQ200_LLJ01_FI01.PV', #流量2
+            'DLDZ_SUM_SYSTEM_PI01.PV' #压力
         ]
     
     # 构建API请求参数
@@ -297,8 +297,8 @@ def test_with_sample_data():
 if __name__ == "__main__":
     # 示例：获取多个特定日期的数据
     specific_days = [
-        "2025-06-01",  # 6月1日
-        "2025-06-08"   # 6月8日
+        "2025-07-01",  
+        "2025-07-08"   
     ]
     
     df_multiple = fetch_specific_days(specific_days)

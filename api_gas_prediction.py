@@ -75,7 +75,7 @@ class APIGasPredictor:
         print(f"  上周同一天: {required_dates[2]} ({prediction_weekday_name})")
         
         # 从API获取数据
-        df = fetch_specific_days(required_dates, interval=60000)  # 1分钟间隔
+        df = fetch_specific_days(required_dates, interval=600000)  # 1分钟间隔
         
         if df.empty:
             print("❌ 无法从API获取所需的历史数据")
