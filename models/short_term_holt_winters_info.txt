@@ -1,5 +1,0 @@
-Short-term Holt-Winters Model
-Training Data: 1009 points (7.0 days)
-Seasonal Periods: 144
-Time Range: 2025-06-12 16:40:00 to 2025-06-19 16:40:00
-Average Flow: 91.49
