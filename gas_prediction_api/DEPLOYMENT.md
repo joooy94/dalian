@@ -37,7 +37,7 @@ gas_prediction_api/
 
 ### 1. 环境准备
 
-#### 使用Python虚拟环境（推荐）
+#### 方式1: 使用Pythån虚拟环境（推荐）
 
 ```bash
 # 创建虚拟环境
@@ -50,7 +50,7 @@ source gas_prediction_env/bin/activate
 gas_prediction_env\Scripts\activate
 ```
 
-#### 使用Conda环境
+#### 方式2: 使用Conda环境（仅供开发测试时使用）
 
 ```bash
 # 创建conda环境
